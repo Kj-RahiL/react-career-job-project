@@ -1,8 +1,15 @@
 
+import FeatureJob from "../FeatureJob/FeatureJob";
+import JobsCatagory from "../JobsCatagory/JobsCatagory";
+
 const Home = () => {
     return (
         <div>
-            <h2>home</h2>
+            <div className=" h-[50vh] "></div>
+
+            <JobsCatagory></JobsCatagory>
+            <FeatureJob></FeatureJob>
+            
         </div>
     );
 };
